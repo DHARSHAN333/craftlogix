@@ -13,6 +13,9 @@ function Navbar() {
           <Link to="/login">Login</Link> {/* Link to LoginPage */}
         </li>
         <li>
+          <Link to="/signup">Signup</Link> {/* Link to SignupPage */}
+        </li>
+        <li>
           <Link to="/dashboard">Dashboard</Link> {/* Link to DashboardPage */}
         </li>
         <li>

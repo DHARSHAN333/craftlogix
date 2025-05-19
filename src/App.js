@@ -4,6 +4,7 @@ import './App.css';
 
 import HomePage from './pages/HomePage';
 import LoginPage from './pages/LoginPage';
+import Signup from './pages/Signup';
 import DashboardPage from './pages/DashboardPage';
 import PaymentPage from './pages/PaymentPage';
 
@@ -25,6 +26,7 @@ function App() {
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/login" element={<LoginPage />} />
+          <Route path="/signup" element={<Signup />} />
           <Route path="/payment" element={<PaymentPage />} />
 
           {/* Nested routes inside Dashboard */}

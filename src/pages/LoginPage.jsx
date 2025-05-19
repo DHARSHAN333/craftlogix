@@ -1,6 +1,6 @@
-// src/pages/LoginPage.jsx
 import React from 'react';
-import './LoginPage.css'; // Import the CSS file for LoginPage
+import { Link } from 'react-router-dom';
+import './LoginPage.css';
 
 function LoginPage() {
   return (
@@ -11,6 +11,10 @@ function LoginPage() {
         <input type="password" placeholder="Password" />
         <input type="submit" value="Login" />
       </form>
+
+      <p className="signup-link">
+        Don't have an account? <Link to="/signup">Sign up to CraftLogix</Link>
+      </p>
     </div>
   );
 }

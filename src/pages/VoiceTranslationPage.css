@@ -1,0 +1,16 @@
+/* VoiceTranslationPage.css */
+.voice-translation-page {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .voice-translation-page .image-container {
+    margin-top: 20px;
+  }
+  
+  .voice-translation-page img {
+    width: 60%;
+    max-width: 800px;
+    border-radius: 10px;
+  }
+  

@@ -1,0 +1,24 @@
+/* src/pages/HomePage.css */
+
+/* Centering the buttons and adding spacing */
+.home-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+  }
+  
+  .home-page button {
+    padding: 12px 25px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .home-page button:hover {
+    background-color: #45a049;
+  }
+  

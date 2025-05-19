@@ -1,0 +1,72 @@
+/* src/pages/WorkerDetailsPage.css */
+.worker-details-page {
+    padding: 20px;
+  }
+  
+  .worker-form {
+    margin-bottom: 20px;
+  }
+  
+  .worker-form form {
+    display: grid;
+    gap: 10px;
+    max-width: 500px;
+  }
+  
+  .worker-form input {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .worker-form button {
+    padding: 10px;
+    font-size: 16px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .worker-form button:hover {
+    background-color: #218838;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  table, th, td {
+    border: 1px solid #ccc;
+  }
+  
+  th, td {
+    padding: 10px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #f8f9fa;
+  }
+  
+  td img {
+    border-radius: 50%;
+  }
+  
+  button {
+    padding: 5px 10px;
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #c82333;
+  }
+  

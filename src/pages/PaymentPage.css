@@ -1,0 +1,39 @@
+/* src/pages/PaymentPage.css */
+.payment-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .payment-page h2 {
+    margin-bottom: 20px;
+  }
+  
+  .payment-page form {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .payment-page input[type="number"] {
+    padding: 12px;
+    width: 100%;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .payment-page input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .payment-page input[type="submit"]:hover {
+    background-color: #45a049;
+  }
+  

@@ -1,0 +1,17 @@
+/* WorkAllotmentPage.css */
+.work-allotment-page {
+    padding: 20px;
+  }
+  
+  .work-allotment-page table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .work-allotment-page th,
+  .work-allotment-page td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+  }
+  

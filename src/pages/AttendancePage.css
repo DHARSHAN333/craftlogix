@@ -1,0 +1,87 @@
+.attendance-page {
+  padding: 20px;
+  font-family: sans-serif;
+}
+
+.top-bar {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.company-list {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 15px;
+  flex-wrap: wrap;
+}
+
+.company-tab {
+  background: #eee;
+  padding: 10px 15px;
+  border-radius: 8px;
+  cursor: pointer;
+  border: 2px solid transparent;
+}
+
+.company-tab.active {
+  background-color: #cce5ff;
+  border-color: #007bff;
+}
+
+.add-company {
+  padding: 10px 15px;
+  border: 2px dashed #666;
+  border-radius: 8px;
+  cursor: pointer;
+  background: #f7f7f7;
+}
+
+.controls {
+  margin-bottom: 10px;
+}
+
+.controls button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.table-container {
+  overflow-x: auto;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  min-width: 600px;
+}
+
+th,
+td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: center;
+}
+
+.name-input {
+  width: 100%;
+  padding: 4px;
+  border: none;
+  background: transparent;
+  text-align: left;
+}
+
+.attendance-cell {
+  cursor: pointer;
+  user-select: none;
+  transition: background 0.2s;
+}
+
+.attendance-cell:hover {
+  background-color: #f0f8ff;
+}
